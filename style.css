@@ -12,7 +12,7 @@
 }
 #container{
     margin-top: 20px;
-    padding:30px;
+    padding:40px;
     border-radius: 10px;
 }
 .counter:hover{
@@ -86,7 +86,7 @@
 }
 #increase{
     border:3px solid black;
-    padding: 10px;
+    padding: 20px;
     width: 350px;
     margin:auto;
     margin-bottom: 20px;
@@ -172,6 +172,7 @@
     background-color: blue;
     color:white;
     border:none;
+    cursor: pointer;
 }
 input{
     border: 1px solid gray;
@@ -186,4 +187,13 @@ input{
     font-weight: 600;
     margin-top: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section2{
+    display: flex;
+    flex-wrap: wrap;
 }
