@@ -12,7 +12,7 @@
 }
 #container{
     margin-top: 20px;
-    padding: 10px;
+    padding:30px;
     border-radius: 10px;
 }
 .counter:hover{
@@ -162,4 +162,28 @@
     border:2px solid gray;
     padding-left: 10px;
     font-size: 16px;
+}
+.checkbtn{
+    font-size: large;
+    border-radius: 10px;
+    padding: 10px;;
+    margin-top: 10px;
+   width: 150px;
+    background-color: blue;
+    color:white;
+    border:none;
+}
+input{
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px lightgray;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+#paragraph, #para{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
