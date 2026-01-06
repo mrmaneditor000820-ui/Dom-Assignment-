@@ -36,8 +36,7 @@
             passwordField.type = "text";
 
         }
-        
-        else {
+ else {
             passwordField.type = "password";
         }
            }
@@ -53,4 +52,5 @@ for (let i=2;  i<number; i++){
   } 
 }
 message.innerText= number + " is a prime number" + number; 
+
 }
