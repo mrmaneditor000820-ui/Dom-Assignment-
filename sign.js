@@ -56,19 +56,20 @@ message.innerText= number + " is a prime number" + number;
 }
 
 function checkOddEven(){
-  var number = document.getElementById("number").value;
+  var number = document.getElementById("oddEven").value;
   var message =document.getElementById("paragraph");
   console.log("number==>",number);
   for (let i=2;  i<number; i++){
   
   if(number % 2 ==0){
     message.innerText= number + " is Even number" + number;
+    return;
   } 
-  else {
-    message.innerText= number + " is Odd number" + number; 
-  }
 }
+  message.innerText= number + " is Odd number" + number; 
+  
 }
+
 
 
 // function checkNumber() {
