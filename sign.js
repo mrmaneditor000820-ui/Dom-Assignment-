@@ -41,16 +41,51 @@
         }
            }
 
-function checkNumber(){
+// function checkNumber(){
+// var number = document.getElementById("number").value;
+// var message =document.getElementById("para");
+// console.log("number==>",number);
+// for (let i=2;  i<number; i++){
+//   if(number%i ==0){
+//     message.innerText= number + " is not a prime number" + number;
+//     return;
+//   } 
+// }
+// message.innerText= number + " is a prime number" + number; 
+
+// }
+
+
+function checkNumber() {
+
 var number = document.getElementById("number").value;
 var message =document.getElementById("para");
-console.log("number==>",number);
-for (let i=2;  i<number; i++){
-  if(number%i ==0){
-    message.innerText= number + " is not a prime number" + number;
-    return;
-  } 
-}
-message.innerText= number + " is a prime number" + number; 
+    // odd even check
+    if (number % 2 === 0) {
+        console.log(number + " is Even");
+    } else {
+        console.log(number + " is Odd");
+    }
 
+    // prime check
+    let isPrime = true;
+
+    if (number < 2) {
+        isPrime = false;
+    } else {
+        for (let i = 2; i < number; i++) {
+            if (number % i === 0) {
+                isPrime = false;
+                break;
+            }
+        }
+    }
+
+    if (isPrime) {
+        console.log(number + " is Prime Number");
+    } else {
+        console.log(number + " is Not Prime Number");
+    }
 }
+
+// example
