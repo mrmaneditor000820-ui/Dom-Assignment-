@@ -8,21 +8,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
-  <h1 id="count">0</h1>
-  <button onclick="increase('increase')">Increase</button>
-  <button onclick="increase('decrease')">Decrease</button>
-  <button onclick="increase('reset')">Reset</button>
+  <div class="counter1">
 
+  <div id="increase">
+  <h1 id="count">0</h1>
+  <button class="inbtn" onclick="increase('increase')">Increase</button>
+  <button class="debtn" onclick="increase('decrease')">Decrease</button>
+  <button class="resetbtn" onclick="increase('reset')">Reset</button>
+  </div>
 
 
   <div id="container">
-    <h1>Sign Up</h1>
-    <input type="text" placeholder="Enter your name" id="name" required>
-    <input type="email" placeholder="Enter your email" id="email" required>
-    <input type="password" placeholder="Enter your password" id="password" required>
+    <h1 class="signup">Sign Up</h1>
+    <input class="input2" type="text" placeholder="Enter your name" id="name" required>
+    <input class="input2" type="email" placeholder="Enter your email" id="email" required>
+    <div class="eye">
+    <input class="input2" type="password" placeholder="Enter your password" id="password" required>
     <span id="showPassword" onclick="showPassWord()">
       <i class="fa-solid fa-eye"></i>
-    </span><br>
+    </span>
+    </div>
+  </div>
+
+  <div id="container">
+    <input class="input2" type="number" placeholder="Enter number" id="number">
+    <button onclick="checkNumber()">Check Number</button>
+   <P id="para">Try Number</P>
+
+  </div>
   </div>
 
   <script src="./sign.js">
