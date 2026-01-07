@@ -72,6 +72,9 @@ function checkOddEven() {
 
 
 
+
+
+
 // function checkNumber() {
 
 // var number = document.getElementById("number").value;
