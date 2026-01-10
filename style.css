@@ -259,26 +259,10 @@ input {
 
 }
 .section1:hover {
-    box-shadow: 4px 4px 15px gray;
+    box-shadow: 4px 4px 15px rgb(0, 255, 204);
     transition: all 0.4s ease;          
 }
-@keyframes infinite {
-    0% {
-        border-color: rgb(0, 0, 255);
-    }
-    25% {
-        border-color: rgb(0, 255, 0);
-    }
-    50% {
-        border-color: rgb(255, 0, 0);
-    }
-    75% {
-        border-color: rgb(255, 255, 0);
-    }
-    100% {
-        border-color: rgb(0, 0, 255);
-    }
-}
+
 
 
 .box2 {
