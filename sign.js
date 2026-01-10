@@ -50,10 +50,12 @@ function checkNumber() {
       message.innerText = number + " is not a prime number" + number;
       return;
     }
+    
   }
   message.innerText = number + " is a prime number" + number;
-
+  
 }
+
 
 function checkOddEven() {
   var number = document.getElementById("oddEven").value;
