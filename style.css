@@ -236,8 +236,8 @@ input {
     font-size: 18px;
     box-shadow: 2px 2px 10px gray;
     transition: all 0.4s ease;
-    text-decoration: none;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .box:hover {
@@ -295,4 +295,24 @@ input {
 .box3:hover {
     box-shadow: 4px 4px 15px gray;
     transition: all 0.4s ease;
+}
+
+@keyframes infinite {
+    0% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: rgb(204, 255, 255);
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
